@@ -18,27 +18,27 @@
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
 
-![sql1.png](images\mysql1.png)
-![sql2.png](images\mysql2.png)
-![sql3.png](images\mysql3.png)
-![sql4.png](images\mysql4.png)
+![sql1.png](images/mysql1.png)
+![sql2.png](images/mysql2.png)
+![sql3.png](images/mysql3.png)
+![sql4.png](images/mysql4.png)
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
 Установка :
-![dpkg2.png](images\dpkg2.png)
+![dpkg2.png](images/dpkg2.png)
 Удаление : 
-![dpkg3.png](images\dpkg3.png)
+![dpkg3.png](images/dpkg3.png)
 
 5. Выложить историю команд в терминале ubuntu
 
-[История команд](data\Hystory.txt "История тут")
+[История команд](data/Hystory.txt "История тут")
 
 ## 2 Часть : MySQL.
 
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы).
 
-![схема](images\draw.png)
+![схема](images/draw.png)
 
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
@@ -193,7 +193,7 @@ INSERT INTO donkeys (Name,  Commands, Birthday, pet_type) VALUES
 ```
 Получаем такой результат заполнения :
 
-![diagramm](images\sqldiagram.png)
+![diagramm](images/sqldiagram.png)
 
 10. Удалить из таблицы верблюдов, т.к. верблюдов решили перевезти в другой питомник на зимовку. 
 
@@ -234,7 +234,7 @@ WHERE Birthday BETWEEN ADDDATE(curdate(), INTERVAL -3 YEAR) AND ADDDATE(CURDATE(
 ```
 Результат :
  
-![sql1.png](images\sql1.png)
+![sql1.png](images/sql1.png)
 
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на прошлую принадлежность к старым таблицам.
 
@@ -260,6 +260,6 @@ SELECT 'young_animals' AS where_from, Name,  Commands, Birthday, pet_type, TIMES
 ```
 Результат :
  
-![sql2.png](images\sql2.png)
+![sql2.png](images/sql2.png)
 
-[Файл со скриптом](data\SqlScript.sql "Скрипт целиком")
+[Файл со скриптом](data/SqlScript.sql "Скрипт целиком")
