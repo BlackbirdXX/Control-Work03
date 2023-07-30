@@ -1,0 +1,87 @@
+
+ 513  mkdir control_work2
+  514  cd control_work2/
+  515  cat >  Домашние_животные
+  516  cat > Вьючные_животные
+  517  cat Домашние_животные Вьючные_животные > Друзья_человека
+  518  ls
+  519  cat Друзья_человека
+  520  mkdir animals
+  521  ls
+  522  mv Друзья_человека animals/
+  523  ls
+  524  cd animals/
+  525  ls
+  526  clear
+  527  sudo dpkg -i https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  528  clear
+  529  sudo dpkg -i https://repo.mysql.com/mysql-apt-config_0.8.26-1_all.deb
+  530  clear
+  531  sudo dpkg -i https://repo.mysql.com//mysql-apt-config_0.8.26-1_all.deb
+  532  clear
+  533  sudo dpkg https://repo.mysql.com//mysql-apt-config_0.8.26-1_all.deb
+  534  clear
+  535  sudo wget https://repo.mysql.com//mysql-apt-config_0.8.26-1_all.deb
+  536  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+  537  mysql --version
+  538  sudo apt search mysql-server
+  539  sudo systemctl stop mysqld
+  540  sudo apt remove mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  541  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  542  sudo rm -rf /var/log/mysql
+  543  sudo rm -Rf /var/lib/mysql/
+  544  sudo rm -Rf /etc/mysql/
+  545  sudo apt search mysql-server
+  546  sudo systemctl stop mysql-server
+  547  sudo systemctl stop mysql
+  548  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+  549  clear
+  550  wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  551  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+  552  mysql --version
+  553  sudo apt search mysql-server
+  554  sudo systemctl stop mysql-server
+  555  sudo systemctl stop mysql-server-8.0
+  556  sudo systemctl stop mysql-server-core-8.0
+  557  sudo systemctl stop mysql-client-core-8.0
+  558  sudo systemctl stop mysql
+  559  sudo systemctl stop mysqld
+  560  sudo systemctl status mysqld
+  561  sudo apt purge mysql-server mysql-common mysql-server-core-* mysql-client-core-*
+  562  sudo apt update
+  563  sudo apt upgrade
+  564  sudo apt purge mysql-server*
+  565  sudo rm -r /etc/mysql /var/lib/mysql
+  566  sudo rm -r /var/log/mysql
+  567  sudo apt autoremove
+  568  mysql --version
+  569  clear
+  570  wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+  571  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+  572  mysql
+  573  sudo apt update
+  574  sudo apt install -y mysql-server
+  575  sudo reboot
+  576  systemctl status mysqld
+  577  systemctl status mysql
+  578  clear
+  579  dpkg -l
+  580  dpkg -l | grep atom
+  581  dpkg -l | grep foobar
+  582  dpkg -l
+  583  clear
+  584  sudo dpkg -i atom-amd64.deb
+  585  clear
+  586  dpkg -l
+  587  sudo dpkg -i bzip2
+  588  sudo dpkg -i bzip2.deb
+  589  clear
+  590  wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.24-2ubuntu1_amd64.deb
+  591  sudo dpkg -i mc_4.8.27-1_amd64.deb
+  592  sudo dpkg -i mc_4.8.24-2ubuntu1_amd64.deb
+  593  sudo apt install -f
+  594  sudo dpkg --purge mc_4.8.27-1_amd64.deb
+  595  sudo dpkg -r mc_4.8.27-1_amd64.deb
+  596  sudo dpkg -r --force-depends mc_4.8.27-1_amd64.deb
+  597  sudo dpkg -r --force-depends mc
+  598  history  
